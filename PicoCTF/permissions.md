@@ -6,7 +6,7 @@
 ## Steps
 The CTF ask to connect at a specific URL with ssh.
 
-1. After login, I ran this command `sudo ls -l` which give me thenhint to use vim :
+1. After login, I ran this command `sudo ls -l` which give me the hint to use Vim :
 ![](images/permissions_2.png)
 
 2. After many attempts and many googling, I tried this : `sudo vi -c ':!/bin/sh' /dev/null`. 
